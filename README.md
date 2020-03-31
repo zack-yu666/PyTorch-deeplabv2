@@ -41,24 +41,21 @@ For help on the optional arguments run: ``python main.py -h``
 
 
 ### Examples: Training
-### directly train
 ```
-python main.py 
+directly train: python main.py 
 ```
-### train with settings
 ```
-python main.py --save-dir save/folder/ --name model_name --device cuda(cpu)
+train with settings: python main.py --save-dir save/folder/ --name model_name --device cuda(cpu)
 ```
 
 ### Examples: Testing
 
-### directly test
+Before run the segmentation prediction, you should download the weights trained with the cityscapes from the site https://drive.google.com/file/d/1BpVq6ZpzWTQ-RGfYX3BR0S19iP0XD6fM/view?usp=sharing and save to the directory save.
 ```
-python pred.py 
+directly test: python pred.py 
 ```
-### test with settings
 ```
-python pred.py --test_img test-img/ --test_out outputs --device cuda(cpu)
+test with settings: python pred.py --test_img test-img/ --test_out outputs --device cuda(cpu)
 ```
 
 Some codes of this project are borrowed from the [PyTorch-ENet](https://github.com/davidtvs/PyTorch-ENet) 
