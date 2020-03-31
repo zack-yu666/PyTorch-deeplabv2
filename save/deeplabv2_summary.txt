@@ -1,0 +1,28 @@
+ARGUMENTS
+batch_size: 1
+dataset: cityscapes
+dataset_dir: /home/huachen_yu/cityscapes
+device: cuda
+height: 256
+ignore_unlabeled: True
+imshow_batch: False
+learning_rate: 0.00025
+learning_rate_D: 0.0001
+lr_decay: 0.1
+max_iters: 100000
+mode: train
+momentum: 0.9
+name: deeplabv2
+power: 0.9
+print_step: False
+resume: False
+save_dir: save
+save_pred_every: 2000
+weighing: deeplabv2
+weight_decay: 0.0002
+width: 512
+workers: 4
+
+BEST VALIDATION
+Epoch: 96001
+Mean IoU: 0.47244099124306965
