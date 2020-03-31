@@ -7,7 +7,7 @@ This implementation has been tested on the CamVid and Cityscapes datasets. Curre
 
 |                               Dataset                                | Classes <sup>1</sup> | Input resolution | Batch size | iteractions |   Mean IoU (%)    | GPU memory (GiB) | Training time (hours)<sup>2</sup> |
 | :------------------------------------------------------------------: | :------------------: | :--------------: | :--------: |  :--------: | :---------------: | :--------------: | :-------------------------------: |
-|          [Cityscapes](https://www.cityscapes-dataset.com/)           |          19          |     512x256      |     1      |    100000   |      45.66        |       11         |               4.5                 |
+|          [Cityscapes](https://www.cityscapes-dataset.com/)           |          19          |     512x256      |     1      |    100000   |      47.24        |       11         |               4.5                 |
 
 <sup>1</sup> When referring to the number of classes, the void/unlabeled class is always excluded.<br/>
 <sup>2</sup> Just for reference since changes in implementation, datasets, and hardware can lead to very different results. Reference hardware: Nvidia GTX 1080Ti. You can also train for 100000 iteractions to get the best mIoU for the validation set.<br/>
